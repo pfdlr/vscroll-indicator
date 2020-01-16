@@ -1,0 +1,38 @@
+html {
+  scrollbar-width: none;
+}
+body {
+  margin: 0;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 8px;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 8px;
+  height: 100%;
+  background: #ccc;
+}
+
+.progress-bar {
+  position: relative;
+  width: 8px;
+  background: #4caf50;
+  height: 40px;
+}
+.content {
+  height: 100px;
+  margin: 50px auto 0 auto;
+  width: 50%;
+}
